@@ -455,10 +455,79 @@ button:hover {
     }
 }
 
+
+
 .bg-footer {
     background: ghostwhite;
     padding: 230px 10% 100px 10%;
 }
+
+form {
+    display: flex;
+    flex-direction: column;
+    grid-gap: 30px;
+    margin: 0 auto;
+    position: relative;
+    padding: 30px;
+}
+
+.flex {
+    display: flex;
+    grid-gap: 50px;
+}
+
+.in {
+    display: flex;
+    flex-direction: column;
+}
+
+input,
+textarea {
+    width: 200px;
+    font-size: 1.4rem;
+    padding: 10px 0;
+    border: 2px solid transparent;
+    border-bottom: 2px solid #888888;
+    background: transparent;
+}
+
+label {
+    font-size: 1.4rem;
+}
+
+*:focus {
+    outline: none;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+}
+
+form .icon ion-icon {
+    background: #ff8d23;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.footer {
+    display: flex;
+}
+
+.footer .text {
+    margin: 0 auto;
+    width: 40%;
+}
+
+.footer .text h1 {
+    color: #252323;
+    font-size: 5.5rem;
+    width: 220px;
+}
+
+
+
+
 
 
 
