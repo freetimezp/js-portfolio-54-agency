@@ -226,6 +226,120 @@ button:hover {
 
 
 
+.about {
+    position: relative;
+}
+
+.design {
+    display: flex;
+    flex-direction: column;
+}
+
+.design a {
+    padding: 20px 0px;
+    text-decoration: none;
+    font-size: 2.5rem;
+    color: #666;
+    position: relative;
+    transition: .4s ease-out;
+}
+
+.design a:nth-child(1) {
+    color: #fff;
+}
+
+.design a::before {
+    display: none;
+}
+
+.images {
+    width: 60%;
+    height: 100%;
+    position: relative;
+}
+
+.f2-img,
+.f3-img,
+.f4-img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    opacity: 0.7;
+    filter: blur(2px);
+    transition: 0.4s ease;
+}
+
+.f1-img {
+    transition: 0.4s ease;
+}
+
+.f2-img {
+    top: 45%;
+    left: 47%;
+}
+.f3-img {
+    top: 40%;
+    left: 44%;
+    z-index: -2;
+}
+.f4-img {
+    top: 35%;
+    left: 41%;
+    z-index: -3;
+}
+
+.f1-img img,
+.f2-img img,
+.f3-img img,
+.f4-img img {
+    width: 350px;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    border-radius: 10px;
+}
+
+.icon-position {
+    position: absolute;
+    top: 33%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    transition: 0.4s ease;
+}
+
+.icon-position ion-icon {
+    color: white;
+    font-size: 2rem;
+    padding: 20px;
+    border: 1px solid #888;
+    border-radius: 50%;
+}
+
+.background-css2 {
+    content: '';
+    width: 800px;
+    height: 800px;
+    border-radius: 50%;
+    border-right: 1px solid #888;
+    position: absolute;
+    top: 50%;
+    left: 2%;
+    transform: translate(-50%, -50%);
+    z-index: -2;
+    transition: .4s ease;
+    animation: circle1 5s ease forwards infinite;
+}
+
+
+
+
+
+
+
+
+
 
 
 
