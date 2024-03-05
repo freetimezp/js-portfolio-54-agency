@@ -332,6 +332,66 @@ button:hover {
     animation: circle1 5s ease forwards infinite;
 }
 
+.box1,
+.box2,
+.box3 {
+    width: 400px;
+    height: auto;
+    background-color: #0c0c0c;
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.75);
+    padding: 20px;
+    border-radius: 10px;
+    transition: .4s ease;
+}
+
+.icon ion-icon {
+    color: #fff;
+    font-size: 2rem;
+    padding: 20px;
+}
+
+.box1 .icon ion-icon {
+    color: #23ff35;
+}
+.box2 .icon ion-icon {
+    color: #ff8d23;
+}
+.box3 .icon ion-icon {
+    color: #23ffed;
+}
+
+.text ion-icon {
+    color: #fff;
+    font-size: 2rem;
+    padding: 0;
+}
+
+.box1:hover {
+    box-shadow: 
+        0 0 30px 0 rgba(0, 0, 0, 0.75),
+        -1px -2px 2px #23ff35;
+}
+.box2:hover {
+    box-shadow: 
+        0 0 30px 0 rgba(0, 0, 0, 0.75),
+        -1px -2px 2px #ff8d23;
+}
+.box3:hover {
+    box-shadow: 
+        0 0 30px 0 rgba(0, 0, 0, 0.75),
+        -1px -2px 2px #23ffed;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
