@@ -384,18 +384,81 @@ button:hover {
 
 
 
+.client {
+    width: 100%;
+    height: 500px;
+    background: url(../images/bg-smile.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    filter: grayscale(100%);
+    position: relative;
+}
 
+.client::before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+}
 
+.client .text-center {
+    padding: 50px; 
+    width: 500px;
+    margin: 0 auto; 
+}
 
+.client .text-center h1 {
+    color: #fff;
+}
 
+.pad {
+    padding: 170px 10% 0px 10%;
+}
 
+.client .row {
+    padding-bottom: 50px;
+    width: 1000px;
+    margin: 0 auto;
+}
 
+.box-c {
+    width: 280px;
+    height: 175px;
+    background-color: #0c0c0c;
+    box-shadow: 
+        0 0 30px 0 rgba(0, 0, 0, 0.75),
+        -7px -10px 1px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    transform: skew(0deg, -12deg);
+    border-radius: 10px;
+    transition: .4s ease;
+    animation: skew 4s ease forwards infinite;
+}
 
+@keyframes skew {
+    0%, 100% {
+        box-shadow: 
+            0 0 30px 0 rgba(0, 0, 0, 0.75),
+            -7px -10px 1px rgba(0, 0, 0, 0.5);
+        transform: skew(0deg, -12deg);
+    }
 
+    50% {
+        box-shadow: 
+            0 0 30px 0 rgba(0, 0, 0, 0.75),
+            10px -7px 1px rgba(0, 0, 0, 0.5);
+        transform: skew(0deg, 12deg);
+    }
+}
 
-
-
-
+.bg-footer {
+    background: ghostwhite;
+    padding: 230px 10% 100px 10%;
+}
 
 
 
