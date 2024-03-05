@@ -78,7 +78,38 @@ p {
 }
 
 .menu-circle {
+    content: '';
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #969696;
     position: absolute;
+    top: 150px;
+    left: 85%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    box-shadow: 
+        -7px -7px 60px #fff,
+        7px 7px 30px #fff;
+    display: none;
+}
+
+.menu-circle::before {
+    content: '';
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border-top: 2px solid #969696;
+    border-right: 2px solid #969696;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: circle1 5s ease forwards infinite;
+}
+
+.menu.active {
+    top: 0;
 }
 
 .header a,
