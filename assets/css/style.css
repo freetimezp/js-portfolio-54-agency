@@ -558,16 +558,245 @@ form .icon ion-icon {
 
 
 
+@media (max-width: 1350px) {
+    .header {
+        padding: 30px 6%;
+    }
+    section {
+        padding: 170px 6%;
+    }
+    .home {
+        padding: 0 6%;
+    }
 
+    .img1 img,
+    .img2 img,
+    .img3 img {
+        width: 300px;
+    }
+    .img2 img {
+        width: 350px;
+    }
 
+    .client .row {
+        width: 900px;
+    }
+}
 
+@media (max-width: 1200px) {
+    .img1 img,
+    .img2 img,
+    .img3 img {
+        width: 275px;
+    }
+    .img2 img {
+        width: 325px;
+    }
+    .text-center {
+        transform: translateY(-50px);
+    }
+}
 
+@media (max-width: 1100px) {
+    .img1 img,
+    .img2 img,
+    .img3 img {
+        width: 250px;
+    }
+    .img2 img {
+        width: 300px;
+    }
+    .text-center {
+        transform: translateY(-85px);
+    }
+    .client .row {
+        width: 750px;
+    }
+    .client .text-center {
+        transform: translateY(0);
+    }
+}
 
+@media (max-width: 960px) {
+    .header {
+        padding: 30px 4%;
+    }
+    section {
+        padding: 170px 4%;
+    }
+    h1 {
+        font-size: 2.5rem;
+    }
+    p {
+        font-size: 1rem;
+    }
+    .home {
+        padding: 0 4%;
+    }
 
+    .row {
+        flex-wrap: wrap;
+    }
 
+    .img1,
+    .img2,
+    .img3 {
+        position: relative;
+        display: block;
+        margin: 0 auto;
+    }
+    .img2 img {
+        width: 250px;
+        transform: translateY(0);
+    }
 
+    .text-center {
+        transform: translateY(0);
+    }
+    .text-center h1 {
+        font-size: 3rem;
+    }
 
+    .design a {
+        font-size: 2rem;
+    }
 
+    .background-css {
+        width: 157%;
+        height: 157%;
+        left: -50%;
+    }
+    .background-css2 {
+        left: -10%;
+    }
+
+    .client {
+        height: auto;
+    }
+    .client .row {
+        width: 615px;
+    }
+
+    .box-c,
+    .box1,
+    .box2,
+    .box3 {
+        display: block;
+        margin: 0 auto;
+    }
+
+    form {
+        transform: scale(0.8);
+    }
+
+    .footer .text h1 {
+        font-size: 4.5rem;
+    }
+}
+
+@media (max-width: 788px) {
+    h1 {
+        font-size: 2rem;
+    }
+    .hero {
+        height: 100%;
+    }
+    .menu {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: -300px;
+        left: -50%;
+        background: #0c0c0c;
+        width: 215px;
+    }
+    .menu-circle {
+        display: block;
+    }
+    .background-css,
+    .background-css2 {
+        display: none;
+    }
+
+    .home {
+        position: unset;
+        transform: unset;
+    }
+    .icon-position ion-icon {
+        font-size: 1.5rem;
+        padding: 15px;
+    }
+    .text-center {
+        width: auto;
+    }
+
+    .f1-img img,
+    .f2-img img,
+    .f3-img img,
+    .f4-img img {
+        width: 300px;
+    }
+
+    .client .row {
+        width: auto;
+    }
+    .footer {
+        display: flex;
+        flex-direction: column;
+    }
+    form {
+        transform: scale(1);
+        left: -4%;
+        margin: unset;
+    }
+    .footer .text {
+        width: auto;
+        margin: unset;
+    }
+}
+
+@media (max-width: 545px) {
+    .menu {
+        width: auto;
+    }
+    .row {
+        flex-direction: column;
+        align-items: unset;
+    }
+    .icon-position {
+        left: 55%;
+        position: relative;
+        transform: translateY(-245px);
+        width: 50px;
+    }
+    .images {
+        left: 10%;
+    }
+
+    .img1,
+    .img2,
+    .img3 {
+        width: 300px;
+    }
+    .client .text-center {
+        width: auto;
+    }
+    p {
+        font-size: 0.9rem;
+    }
+
+    .box1,
+    .box2,
+    .box3 {
+        width: 350px;
+    }
+    .flex {
+        flex-direction: column;
+    }
+    form {
+        left: -7%;
+    }
+}
 
 
 
